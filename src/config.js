@@ -16,7 +16,6 @@ import img8 from '@/assets/images/8.png'
 import img9 from '@/assets/images/9.png'
 import img10 from '@/assets/images/10.png'
 import img11 from '@/assets/images/11.png'
-import img12 from '@/assets/images/12.png'
 export default () => {
     return [
         { size: 52 * 0.56, imgurl: img1, imgwidth: img1.asset.imageObject.width, score: 1 },
@@ -30,6 +29,5 @@ export default () => {
         { size: 308 * 0.56, imgurl: img9, imgwidth: img9.asset.imageObject.width, score: 256 },
         { size: 358 * 0.56, imgurl: img10, imgwidth: img10.asset.imageObject.width, score: 512 },
         { size: 408 * 0.56, imgurl: img11, imgwidth: img11.asset.imageObject.width, score: 1024 },
-        { size: 408 * 0.56, imgurl: img12, imgwidth: img12.asset.imageObject.width, score: 2048 },
     ]
 }
